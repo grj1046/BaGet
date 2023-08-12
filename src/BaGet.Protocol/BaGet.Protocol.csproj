@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
 
     <PackageTags>NuGet;Protocol</PackageTags>
     <Description>Libraries to interact with NuGet server APIs.</Description>
@@ -12,6 +12,10 @@
     <PackageReference Include="NuGet.Frameworks" Version="6.7.0" />
     <PackageReference Include="NuGet.Versioning" Version="6.7.0" />
     <PackageReference Include="System.Text.Json" Version="7.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="1.1.1" />
   </ItemGroup>
 
 </Project>
